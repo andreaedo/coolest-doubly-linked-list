@@ -1,0 +1,35 @@
+{
+  "name": "coolest-doubly-linked-list",
+  "version": "1.0.0",
+  "description": "A simple but cool doubly linked list",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly" : "npm test",
+    "version" : "git add -A src",
+    "postversion" : "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreaedo/coolest-doubly-linked-list.git"
+  },
+  "keywords": ["doubly","linked","list"],
+  "author": "Andrea Edoardo De Santo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreaedo/coolest-doubly-linked-list/issues"
+  },
+  "homepage": "https://github.com/andreaedo/coolest-doubly-linked-list#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
