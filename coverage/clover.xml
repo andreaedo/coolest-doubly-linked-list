@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1571499578520" clover="3.2.0">
+  <project timestamp="1571499578520" name="All files">
+    <metrics statements="48" coveredstatements="48" conditionals="28" coveredconditionals="28" methods="12" coveredmethods="12" elements="88" coveredelements="88" complexity="0" loc="48" ncloc="48" packages="1" files="2" classes="2"/>
+    <file name="doublyLinkedList.js" path="/Users/andreaedoardodesanto/Workspace/Personal/coolest-doubly-linked-list/src/lib/doublyLinkedList.js">
+      <metrics statements="44" coveredstatements="44" conditionals="28" coveredconditionals="28" methods="11" coveredmethods="11"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="9" type="stmt"/>
+      <line num="6" count="9" type="stmt"/>
+      <line num="10" count="10" type="stmt"/>
+      <line num="12" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="15" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="19" count="10" type="stmt"/>
+      <line num="23" count="14" type="stmt"/>
+      <line num="25" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="28" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="13" type="stmt"/>
+      <line num="30" count="13" type="stmt"/>
+      <line num="32" count="14" type="stmt"/>
+      <line num="36" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="40" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="44" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="48" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="52" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="56" count="12" type="stmt"/>
+      <line num="57" count="12" type="stmt"/>
+      <line num="58" count="19" type="cond" truecount="2" falsecount="0"/>
+      <line num="59" count="11" type="cond" truecount="4" falsecount="0"/>
+      <line num="60" count="2" type="stmt"/>
+      <line num="61" count="2" type="stmt"/>
+      <line num="62" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="63" count="5" type="stmt"/>
+      <line num="64" count="5" type="stmt"/>
+      <line num="65" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="66" count="3" type="stmt"/>
+      <line num="67" count="3" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="70" count="1" type="stmt"/>
+      <line num="72" count="11" type="stmt"/>
+      <line num="74" count="8" type="stmt"/>
+      <line num="79" count="1" type="stmt"/>
+      <line num="83" count="7" type="stmt"/>
+      <line num="84" count="7" type="stmt"/>
+      <line num="85" count="14" type="stmt"/>
+      <line num="86" count="14" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+    </file>
+    <file name="listNode.js" path="/Users/andreaedoardodesanto/Workspace/Personal/coolest-doubly-linked-list/src/lib/listNode.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="24" type="stmt"/>
+      <line num="4" count="24" type="stmt"/>
+      <line num="5" count="24" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
