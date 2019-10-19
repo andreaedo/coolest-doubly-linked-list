@@ -44,10 +44,10 @@ describe('Adding and Removing Values', () => {
   });
 
   test('Remove Specific Value', () => {
-    expect(list.wasRemoved(2)).toBe(true);
-    expect(list.wasRemoved(1)).toBe(true);
-    expect(list.wasRemoved(3)).toBe(true);
-    expect(list.wasRemoved(10)).toBe(false);
+    expect(list.remove(2)).toBe(true);
+    expect(list.remove(1)).toBe(true);
+    expect(list.remove(3)).toBe(true);
+    expect(list.remove(10)).toBe(false);
   });
 
 });

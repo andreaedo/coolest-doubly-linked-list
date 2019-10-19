@@ -6,6 +6,10 @@ class DoublyLinkedList {
         this.tail = null;
     }
 
+ /**
+ * Add element as head of the list
+ * @param item the element to add
+ */
     addFirst(item) {
         let node = new Node(item);
 
@@ -19,6 +23,10 @@ class DoublyLinkedList {
         this.head = node;
     }
 
+/**
+* Add element as tail of the list
+* @param item value of the element to add
+*/
     addLast(item) {
         let node = new Node(item);
 
@@ -32,27 +40,53 @@ class DoublyLinkedList {
         this.tail = node;
     }
 
+/**
+* Get the head of the list
+* @return data stored in the node, undefined if the list is empty
+*/
     getFirst() {
-        if (this.head) return  this.head.data;
+        if (this.head) return this.head.data;
     }
 
+/**
+* Get the tail of the list
+* @return data stored in the node, undefined if the list is empty
+*/
     getLast() {
         if (this.tail) return this.tail.data;
     }
 
+/**
+* Remove the head of the list
+* @return data stored in the node, undefined if the list is empty
+*/
     removeFirst() {
-        if (this.head) return this.remove(this.head.data);
+        if (this.head) return this.removeNode(this.head.data);
     }
 
+/**
+* Remove the tail of the list
+* @return data stored in the node, undefined if the list is empty
+*/
     removeLast() {
-        if (this.tail) return this.remove(this.tail.data);
+        if (this.tail) return this.removeNode(this.tail.data);
     }
 
-    wasRemoved(item) {
-        return this.remove(item) ? true : false;
-    }
-
+/**
+* Remove a specific element from the list
+* @param item value of the element to remove
+* @return true if the element is removed, else false
+*/
     remove(item) {
+        return this.removeNode(item) ? true : false;
+    }
+
+/**
+* Remove a specific element from the list
+* @param item value of the element to remove
+* @return data stored in the node, undefined if the list is empty
+*/
+    removeNode(item) {
         let current = this.head;
         while (current) {
             if (current.data === item) {
@@ -75,10 +109,17 @@ class DoublyLinkedList {
         }
     }
 
+/**
+* Transform the list into an array
+* @return array containing values of the nodes
+*/
     toArray() {
         return Array.from(this.values());
-     }
+    }
 
+/**
+* Iterates through the elemtents of the list
+*/
     *values() {
         let current = this.head;
         while (current) {
