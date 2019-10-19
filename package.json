@@ -1,12 +1,10 @@
 {
-  "name": "doubly-linked-list",
+  "name": "@andreaedo/doubly-linked-list",
   "version": "1.0.0",
   "description": "A simple but cool doubly linked list",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest --coverage",
-    "build": "",
-    "prepare": "npm run build",
     "prepublishOnly": "npm test",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
@@ -31,5 +29,6 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {}
 }

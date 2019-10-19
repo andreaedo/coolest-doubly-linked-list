@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571499578520" clover="3.2.0">
-  <project timestamp="1571499578520" name="All files">
+<coverage generated="1571500447553" clover="3.2.0">
+  <project timestamp="1571500447553" name="All files">
     <metrics statements="48" coveredstatements="48" conditionals="28" coveredconditionals="28" methods="12" coveredmethods="12" elements="88" coveredelements="88" complexity="0" loc="48" ncloc="48" packages="1" files="2" classes="2"/>
     <file name="doublyLinkedList.js" path="/Users/andreaedoardodesanto/Workspace/Personal/coolest-doubly-linked-list/src/lib/doublyLinkedList.js">
       <metrics statements="44" coveredstatements="44" conditionals="28" coveredconditionals="28" methods="11" coveredmethods="11"/>
